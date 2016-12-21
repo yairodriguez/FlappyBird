@@ -1,0 +1,30 @@
+{
+  "name": "flappybird",
+  "version": "1.0.0",
+  "description": "Built with Test Driven Development, Continuous Integration and ES6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yairodriguez/FlappyBird.git"
+  },
+  "keywords": [
+    "TDD",
+    "CI",
+    "Jade",
+    "Sass",
+    "ES6"
+  ],
+  "author": "Yair <@imyairodriguez>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yairodriguez/FlappyBird/issues"
+  },
+  "homepage": "https://github.com/yairodriguez/FlappyBird#readme",
+  "devDependencies": {
+    "node-sass": "^4.1.1",
+    "sass-lint": "^1.10.2"
+  }
+}
