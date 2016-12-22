@@ -1,0 +1,36 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": [ "jsdoc", "closure" ]
+  },
+  "source": {
+    "include": [ "app/scripts" ],
+    "exclude": [ "tests", "node_modules" ],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": ["plugins/markdown"],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "applicationName": "flappybird",
+    "disqus": "",
+    "googleAnalytics": "",
+    "openGraph": {
+      "title": "Flappy Bird",
+      "type": "website",
+      "image": "",
+      "site_name": "",
+      "url": ""
+    },
+    "meta": {
+      "title": "Flappy Bird",
+      "description": "Built with TDD, CI and ES6.",
+      "keyword": "TDD, CI, ES6, Jade, Sass"
+    },
+    "linenums": true
+  },
+  "opts": {
+    "destination": "docs/js/"
+  }
+}
