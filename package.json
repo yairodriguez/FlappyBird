@@ -4,6 +4,7 @@
   "description": "Built with Test Driven Development, Continuous Integration and ES6.",
   "main": "index.js",
   "scripts": {
+    "lint:js": "eslint **/*.js",
     "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
   },
   "repository": {
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/yairodriguez/FlappyBird#readme",
   "devDependencies": {
+    "eslint": "^3.12.2",
     "ghooks": "^2.0.0",
     "node-sass": "^4.1.1",
     "sass-lint": "^1.10.2"
